@@ -1,0 +1,9 @@
+<link rel="stylesheet" href="{{asset('education-master/css/linearicons.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/font-awesome.min.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/bootstrap.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/magnific-popup.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/nice-select.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/animate.min.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/owl.carousel.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/jquery-ui.css')}}">
+<link rel="stylesheet" href="{{asset('education-master/css/main.css')}}">

@@ -1,0 +1,99 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.Tabs_section {
+    padding: 60px 0;
+}
+.Tabs_section a {
+   color: #777;
+   text-decoration: unset;
+   text-transform: uppercase;
+}
+.Tabs_section .accordion-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0 -10px;
+}
+.Tabs_section .tab-header {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 20px;
+    border: 1px solid #0000005e;
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: 500;
+    transition: all .2s ease-in-out;
+    margin: 0 10px;
+    text-align: center;
+}
+.Tabs_section .tab-header:hover {
+   background-color: #f7631b;
+   border-color: #f7631b;
+   color: #fff;
+}
+.Tabs_section .tab-header.active {
+   background-color: #f7631b;
+   border-color: #f7631b;
+   color: #fff;
+}
+.Tabs_section .Tabs_menu-list {
+    list-style: disc;
+}
+.Tabs_section .Tabs_menu-list {
+    list-style: disc;
+}
+.Tabs_section .tab-pannel {
+    padding: 30px 0 20px;
+    border-bottom: 1px solid #0000005e;
+    display: none;
+    transition: all .2s ease-in-out;
+}
+.Tabs_section .tab-pannel.active {
+    display: block;
+}
+.Tabs_section .Tabs_menu-text-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.Tabs_section .Tabs_menu-list {
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+:last-child {
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+    .Tabs_section .accordion-header {
+        margin: 0 -10px;
+        overflow: auto;
+    }
+    .Tabs_section .tab-header {
+        margin: 0 10px;
+        max-width: 220px;
+        min-width: 220px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .Tabs_section {
+        padding: 40px 0;
+    }
+    .Tabs_section .container {
+        padding:0;
+    }
+    .Tabs_section .accordion-panel {
+        padding: 0 20px;
+    }
+  
+}
